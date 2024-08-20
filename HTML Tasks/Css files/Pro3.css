@@ -1,0 +1,56 @@
+h1{
+   text-align: center;
+   color: rgb(0, 255, 242); 
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+form{
+    text-align: center;
+    color: rgb(0, 255, 242);
+    display:grid;
+}
+
+fieldset{
+    width: 500px;
+    height: 500px;
+    margin-left: 850px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+#username{
+    width: 400px;
+    height: 25px;
+    margin-left: 50px;
+}
+
+#email{
+    width: 400px;
+    height: 25px;
+    margin-left: 50px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+#submit{
+    width: 80px;
+    height: 40px;
+    margin-left: 200px;
+    color: grey;
+}

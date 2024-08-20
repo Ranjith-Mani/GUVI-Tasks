@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us form</title>
+    <link rel="stylesheet" href="Pro3.css" />
+  </head>
+  <fieldset>
+    <body>
+      <h1>Contact us</h1>
+      <h5>Please fill this form</h5>
+      <hr />
+      <form action="Pro3.html" method="post" autocomplete="off">
+        <label for="username"> Username </label><br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Your name"
+          required
+        /><br />
+        <label for="email">Your E-mail </label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your e-mail"
+          required
+        /><br />
+        <label for="message">Your message</label><br />
+        <textarea>Type your message</textarea><br />
+        <input
+          type="submit"
+          id="submit"
+          name="submit"
+          onclick="alert('Your response is successfully submitted!')"
+        />
+      </form>
+    </body>
+  </fieldset>
+</html>

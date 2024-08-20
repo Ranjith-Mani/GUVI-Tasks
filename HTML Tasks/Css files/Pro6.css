@@ -1,0 +1,19 @@
+fieldset{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    margin-top: 200px;
+    border-radius: 2%;
+}
+
+form{
+    display: block;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
